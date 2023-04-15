@@ -198,7 +198,7 @@ body {
 .mob-list-icon {
     display: flex;
     justify-content: start;
-    gap: 24px;
+    gap: 56px;
 }
 
 .mob-item-icon {
@@ -480,12 +480,14 @@ body {
     color: var(--mien-title-color);
     margin-bottom: 16px;
 }
-
+.footerly-icon {
+  margin-bottom: 72px;
+}
 .footerly-list-icon {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 72px;
+   
 }
 
 .footerly-item-icon {
@@ -604,7 +606,6 @@ body {
 
 .project-item {
     width: 360px;
-    height: 420px;
 }
 
 .project-link {
@@ -618,7 +619,8 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.project-link:hover .project-border {
+.project-link:hover,
+.project-border:hover {
     border: none;
 }
 
@@ -682,6 +684,7 @@ body {
     border-radius: 4px;
     transition: transform var(--tra);
     padding: 24px;
+    height: 586px;
 }
 
 .backdrop.is-hidden .modal {
@@ -879,6 +882,7 @@ body {
     .customers-item:nth-child(2n) {
         margin-left: 16px;
     }
+   
 }
 
 
@@ -899,13 +903,14 @@ body {
         margin-bottom: 72px;
     }
 
+   
     .backdrop {
         padding: 96px 18px 114px 18px;
     }
 
     .modal {
         max-width: 392px;
-        min-height: 650px;
+        min-height: 586px;
         padding: 24px 16px;
     }
 
@@ -936,15 +941,15 @@ body {
     .container-logo {
         width: 264px;
         margin-right: 24px;
-        margin-left: 92px;
+        
     }
 
     .container-footerly {
         flex-wrap: wrap;
+          width: 582px;
     }
 
     .footerly-subscribe {
-        margin-left: 92px;
     }
 }
 
@@ -1112,6 +1117,9 @@ body {
         max-width: 1199px;
     }
 
+    .footerly-icon {
+      margin-bottom: 0px;
+    }
     .container-footerly {
         display: flex;
         text-align: start;
@@ -1144,7 +1152,7 @@ body {
 
     .modal {
         width: 408px;
-        min-height: 586px;
+        height: 586px;
         padding: 24px;
     }
 }
