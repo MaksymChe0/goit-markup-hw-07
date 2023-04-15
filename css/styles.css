@@ -880,9 +880,7 @@ body {
     }
 
     .mob-list-icon {
-      display: flex;
-      justify-content: start;
-      gap: 38px;
+      gap: 32px;
   }
 }
 
