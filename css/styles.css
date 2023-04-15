@@ -875,6 +875,15 @@ body {
         margin-bottom: 72px;
     }
 
+    .modal {
+      height: 652px;
+    }
+
+    .mob-list-icon {
+      display: flex;
+      justify-content: start;
+      gap: 38px;
+  }
 }
 
 @media screen and (min-width:428px) and (max-width:767px) {
